@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cards{
+    display:flex ;
+    margin: 5px 5px;
+    text-align: center;
+    padding: 5px 10px;
+}
+ .cards .card img{
+    object-fit: contain;
+    max-width: 100px;
+    height:200px;
+    width: 200px;
+}
+.cards .card{
+    transition: transform 420ms;
+    border: 2px solid #111;
+    margin:20px 30px;
+}
+.cards .card .card-desc p{
+    padding: 5px;
+    letter-spacing: 10px;
+}
+.cards .card:hover{
+    transform: scale(0.8);
+}
