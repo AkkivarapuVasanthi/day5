@@ -1,0 +1,17 @@
+<html>
+<body>
+<h1>The if...else Statements</h1>
+<img id="bulb" onclick="changeImage()" src="bulboff.jpg" width="100" height="180">
+<script>
+function changeImage()
+{
+var image = document.getElementById("bulb");
+if (image.src.match("bulbon")) {
+image.src = "bulboff.jpg";	} 
+else {
+image.src = "bulbon.jpeg";
+}
+}
+</script>
+</body>
+</html>

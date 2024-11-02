@@ -1,0 +1,106 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+body{
+  background-color: blanchedalmond;
+  color: white;
+}
+nav{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+
+nav .logo img{
+   object-fit: contain;
+   max-width: 100px;
+   padding-top: 10%;
+}
+nav .action {
+  display: flex;
+  margin: 10px 20px;
+
+}
+nav .action .signup{
+  background-color: #E50914;
+  color:white;
+  padding: 9px 24px ;
+  border: none;
+  border-radius: 4%;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 10px 0px 0px;
+}
+nav .action .signup:hover{
+  background-color: white;
+  color: black;
+  transition: 0.8ms;
+}
+nav .action .login{
+  background-color: transparent;
+  color:white;
+  padding: 9px 24px ;
+  border: 1px solid white;
+  border-radius: 4%;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 10px 0px 0px;
+}
+
+nav .action .login:hover{
+  background-color: white;
+  color: black;
+  transition: 0.8ms;
+}
+
+.banner{
+    background:linear-gradient(90deg, #181818 0, hsla(0, 0%, 9%, .987) 1.62%, hsla(0, 0%, 9%, .951) 3.1%, hsla(0, 0%, 9%, .896) 4.5%, hsla(0, 0%, 9%, .825) 5.8%, hsla(0, 0%, 9%, .741) 7.06%, hsla(0, 0%, 9%, .648) 8.24%, hsla(0, 0%, 9%, .55) 9.42%, hsla(0, 0%, 9%, .45) 10.58%, hsla(0, 0%, 9%, .352) 11.76%, hsla(0, 0%, 9%, .259) 12.94%, hsla(0, 0%, 9%, .175) 14.2%, hsla(0, 0%, 9%, .104) 15.5%, hsla(0, 0%, 9%, .049) 16.9%, hsla(0, 0%, 9%, .013) 18.38%, hsla(0, 0%, 9%, 0) 20%), url("https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRJzYHgV67mGm_3U8S6RSNrAc9YdyLj8xgAbNbc7uhf5a_fou-eCzezHlv67QNwn-Sq46MxsJDFWAv_MXi4m23SWq6asBfwJXNRf.jpg?r=e21");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 900px;
+    
+}
+.bannercontent .bannertitle img{ 
+  object-fit: contain;
+  max-width: 40%;
+}
+.bannercontent{
+  padding: 20% 10%;
+
+
+}
+.bannercontent .bannertitle h1{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px 0px;
+  
+}
+.bannercontent .bannertitle h3{
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  font-weight: 300;
+  font-size:30px ;
+}
+.bannercontent .bannertitle span{
+  padding: 0px 5px;
+}
+.box{
+  border: 2px solid #a3a3a3;
+  padding: 4px 8px;
+}
+
+.bannercontent .bannertitle p{
+  max-width: 40%;
+  padding: 20px 0px;
+  font-size:20px ;
+
+}

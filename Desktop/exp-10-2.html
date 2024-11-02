@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>IF Statements!!!</title></head><body><pre>
+<script>    
+    var n=[]
+    var num=prompt("enter num value")
+    var index=0
+    var pos_count=0
+    var neg_count=0
+    for(let i=-num;i<=num;i++)
+ {
+   n[index]=i 
+   index++
+   
+ }
+   for(let i=0;i<index;i++)
+   {
+    if(n[i]<0) 
+       neg_count++;
+    if(n[i]>0)
+       pos_count++;
+    }
+document.writeln("The positive numbers in an array is" ${pos_count})
+document.writeln("The negative numbers in an array is" ${neg_count})
+</script></pre>
+</body>
+</html>
+

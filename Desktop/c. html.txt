@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Link Page</title>
+</head>
+<body>
+<h1>Welcome to My Image Link Page!</h1>
+<a hreaf="htts://example.com">
+<img src="image.jpg" aly="Description of the image">
+</a>
+</body>
+</html>
+
+
+
+ 
+ 
+ 
+ 
